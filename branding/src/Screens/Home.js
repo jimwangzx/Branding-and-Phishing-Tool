@@ -15,7 +15,7 @@ const Home = () => {
     const compare= async () => {
       setYes(true);
       //  /scan/?q1=https://www.youtube.com/&q2=www.google.com
-      const search_url=`/scan/?q1=${url1}&q2=${url2}`;
+      const search_url=`/scan/sim/?q1=${url1}&q2=${url2}`;
       console.log(search_url)
       try {
         const { data } = await axios.get(search_url);

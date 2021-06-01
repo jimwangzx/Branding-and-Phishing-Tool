@@ -1,7 +1,7 @@
 import numpy as np
 
 class Similarity:
-     def __init__(self,w1,w2,weight=0.85):
+     def __init__(self,w1,w2,weight=1):
           self.w1=w1
           self.w2=w2
           self.lev=0

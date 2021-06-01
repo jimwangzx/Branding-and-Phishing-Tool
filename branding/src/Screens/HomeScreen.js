@@ -35,7 +35,7 @@ const HomeScreen = () => {
        console.log(url);
        //  www.google.com/
        //   /search/?q=www.google.com/
-       const search_url=`/search/?q=${url}&p=${P}`
+       const search_url=`/scan/?q=${url}&p=${P}`
        console.log(search_url);
        const { data } = await axios.get(search_url);
        console.log(data.urls);

@@ -7,7 +7,7 @@ const Header = () => {
   return (
     <Nav className="justify-content-center" variant="tabs">
     <Nav.Item>
-      <Nav.Link href="/">Branding</Nav.Link>
+      <Nav.Link href="/monitoring">Monitor</Nav.Link>
     </Nav.Item>
     <Nav.Item>
       <Nav.Link href="/similarity" eventKey="link-1">Similar</Nav.Link>
@@ -16,7 +16,7 @@ const Header = () => {
       <Nav.Link href="/phising" eventKey="link-2">Phising</Nav.Link>
     </Nav.Item> 
     <Nav.Item>
-      <Nav.Link href="/report" eventKey="link-3">Reporting</Nav.Link>
+      <Nav.Link href="/reporting" eventKey="link-3">Reporting</Nav.Link>
     </Nav.Item> 
   </Nav>
   );

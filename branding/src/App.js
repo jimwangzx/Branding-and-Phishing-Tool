@@ -13,7 +13,7 @@ const App = () => {
        <Header/>
       <main className="py-3">
   
-          <Route path="/" exact>
+          <Route path="/monitoring" exact>
             <HomeScreen/>
           </Route>
 
@@ -25,7 +25,7 @@ const App = () => {
             <Home/>
           </Route>
 
-          <Route path="/report" exact>
+          <Route path="/reporting" exact>
             <Report/>
           </Route>
          
